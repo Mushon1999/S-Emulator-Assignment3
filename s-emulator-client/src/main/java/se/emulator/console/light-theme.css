@@ -1,0 +1,51 @@
+/* ================================
+   S-Emulator Client – Light Theme
+   ================================ */
+
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #212529;
+}
+
+.label {
+    -fx-text-fill: #212529;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e9ecef);
+    -fx-text-fill: #212529;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 6 12 6 12;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #f1f3f5, #dee2e6);
+}
+
+.text-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #212529;
+    -fx-border-color: #adb5bd;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.menu-bar {
+    -fx-background-color: #e9ecef;
+    -fx-border-color: #ced4da;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dee2e6;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+

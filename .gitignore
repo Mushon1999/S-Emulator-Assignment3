@@ -1,0 +1,35 @@
+# === Java compiled classes === 
+*.class 
+*.jar 
+*.war 
+ECHO is on.
+# === Build output === 
+s-emulator-client/build/ 
+s-emulator-server/build/ 
+s-emulator-client/out/ 
+s-emulator-server/out/ 
+bin/ 
+target/ 
+ECHO is on.
+# === Libraries === 
+s-emulator-client/lib/ 
+s-emulator-server/lib/ 
+ECHO is on.
+# === System and IDE === 
+.idea/ 
+*.iml 
+.project 
+.classpath 
+.settings/ 
+.vscode/ 
+.DS_Store 
+Thumbs.db 
+Desktop.ini 
+ECHO is on.
+# === Logs and temp === 
+*.log 
+*.tmp 
+*.bak 
+*.swp 
+*.sh~ 
+ehthumbs.db 
